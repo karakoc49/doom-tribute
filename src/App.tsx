@@ -7,6 +7,7 @@ import About from './pages/About'
 import Header from './components/Header'
 import Footer from './components/Footer'
 import EasterEgg from './components/EasterEgg'
+import { Analytics } from "@vercel/analytics/react"
 
 function App() {
 
@@ -20,6 +21,7 @@ function App() {
         { <Route path="/about" element={<About />} /> }
       </Routes>
       <EasterEgg />
+      <Analytics />
       <Footer />
     </>
   )
