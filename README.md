@@ -1,50 +1,52 @@
-# React + TypeScript + Vite
+# Doom Tribute Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### [Enjoy reliving the glory of Doom in the browser](https://doom-tribute.vercel.app)
 
-Currently, two official plugins are available:
+This project is a modern web tribute to the legendary game **Doom**, combining nostalgia and interactive features with cutting-edge web technologies.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Table of Contents
+- [Features](#features)
+- [Tech Stack](#tech-stack)
+- [Setup Instructions](#setup-instructions)
+- [Credits](#credits)
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Features
+- **Play Doom in the Browser:** Powered by the js-dos library.
+- **Interactive Easter Egg:** Unleash the cheat code to reveal a surprise.
+- **Gallery Page:** Explore a collection of iconic Doom moments with a responsive layout.
+- **About Page:** Learn about the project’s mission, tech stack, and fun facts.
 
-- Configure the top-level `parserOptions` property like this:
+---
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+## Tech Stack
+- **Frontend Framework:** React.js
+- **Styling:** TailwindCSS
+- **DOS Emulator:** js-dos library for running DOS games.
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+---
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+## Setup Instructions
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/karakoc49/doom-tribute.git
+   cd doom-tribute
+   ```
+2. Install Dependencies:
+   ```bash
+   npm install
+   ```
+3. Start the development server:
+   ```bash
+   npm run dev
+   ```
+4. Open your browser and navigate to http://localhost:5173
+5. To build the project for production:
+   ```bash
+   npm run build
+   ```
+---
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+## Credits
+- Game Assets: Doom assets used under fair use for educational and nostalgic purposes.
