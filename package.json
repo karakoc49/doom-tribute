@@ -13,6 +13,7 @@
     "@fontsource/press-start-2p": "^5.1.1",
     "@tailwindcss/vite": "^4.0.0",
     "@vercel/analytics": "^1.4.1",
+    "@vercel/speed-insights": "^1.1.0",
     "emulators-ui": "^0.73.9",
     "js-dos": "^8.3.11",
     "react": "^18.3.1",

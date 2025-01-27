@@ -8,6 +8,7 @@ import Header from './components/Header'
 import Footer from './components/Footer'
 import EasterEgg from './components/EasterEgg'
 import { Analytics } from "@vercel/analytics/react"
+import { SpeedInsights } from "@vercel/speed-insights/next"
 
 function App() {
 
@@ -22,6 +23,7 @@ function App() {
       </Routes>
       <EasterEgg />
       <Analytics />
+      <SpeedInsights />
       <Footer />
     </>
   )
