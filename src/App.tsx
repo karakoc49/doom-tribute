@@ -1,5 +1,4 @@
 import { Routes, Route } from 'react-router-dom'
-import './App.css'
 import Home from './pages/Home'
 import Gallery from './pages/Gallery'
 import PlayDoom from './pages/PlayDoom'
