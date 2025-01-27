@@ -1,0 +1,21 @@
+[
+    {
+      "title": "Gallery",
+      "desc": "Check out iconic images and designs from the world of Doom.",
+      "btnTitle": "Explore",
+      "btnLink": "/gallery"
+    },
+    {
+      "title": "Play Doom",
+      "desc": "Relive the classic game right here in your browser!",
+      "btnTitle": "Play Now",
+      "btnLink": "/play-doom"
+    },
+    {
+      "title": "Learn More",
+      "desc": "Discover the story behind the legendary Doom series.",
+      "btnTitle": "Learn More",
+      "btnLink": "/about"
+    }
+  ]
+  
